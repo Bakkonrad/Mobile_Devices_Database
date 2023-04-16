@@ -88,5 +88,7 @@ SELECT u.numer_seryjny, u.data_zakupu + INTERVAL '1 year', NULL, 'O'
 FROM urzadzenia u
 WHERE NOT u.marka = 'Apple'
 
+-- end --
+
 
 
